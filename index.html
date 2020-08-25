@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <h1>Compras Pendientes</h1>
+    <fieldset>
+        <legend>Agregar</legend>
+        <span for="producto">Ingrese producto pendiente: </span>
+        <input type="text" name="producto" id="producto">
+    </fieldset>
+    <div style="float:right;margin-top: 1em;width: 100%;">
+        <button id="agregar" style="width: 100%;">Agregar!</button>
+    </div>
+    <fieldset style="clear: both;">
+        <legend>Lista</legend>
+        <ul id="listaPendientes">
+            <li>Coca</li>
+        </ul>
+    </fieldset>
+<script src="index.js"></script>
+</body>
+</html>
